@@ -1,0 +1,57 @@
+.flex-col {
+  display: flex;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  /* width:300px; */
+  justify-content: center;
+  align-items: center;
+}
+.login-email,
+.login-password {
+  /* display:block; */
+  width: 300px;
+  padding: 15px;
+  margin-top: 20px;
+  font-size: 1rem;
+}
+.forgot-password {
+  color: blue;
+}
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+.login-submit,
+.signup-submit,
+.forgot-password,
+.signin-google {
+  width: 300px;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.signup-submit {
+  width: 200px;
+  background-color: green;
+  color: white;
+  margin-top: 5em;
+}
+
+.login-submit {
+  background-color: blue;
+  color: white;
+}
+.login-submit:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
